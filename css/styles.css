@@ -20,16 +20,6 @@ header {
   color: powderblue;
 }
 
-hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-}
-
 footer {
   position: absolute;
   bottom: 0px;
@@ -38,4 +28,23 @@ footer {
   text-align: center;
   background: steelblue;
   color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
 }
+
+.burger {
+	font-size: 30px;
+  cursor: pointer;
+  color:pink;
+}
+
+.navbar {
+  /* width/height changed through javascript when opened */
+  height: 0;
+  width: 0; 
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
