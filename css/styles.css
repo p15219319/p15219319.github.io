@@ -76,6 +76,54 @@ nav a:hover {
   margin: 0;
 }
 
+.container {
+  color: steelblue;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  margin-bottom: 60px;
+}
+
+.container h1 {
+  font-size: 2em;
+  font-weight: normal;
+  text-align: center;
+}
+
+.container p {
+  margin-left: 100px;
+  margin-right: 100px;
+  color: grey;
+  font-size: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 18px;
+  color: steelblue;
+  text-decoration: underline;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card p {
+  text-align: left;
+  font-size: 16;
+  color: grey;
+}
+
 #social-media {
   font-size: 2em;
   color: white;
@@ -101,23 +149,4 @@ nav a:hover {
   color: whitesmoke;
   text-decoration: none;
   font-size: 2em;
-}
-
-#about {
-  color: steelblue;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  margin-bottom: 60px;
-}
-
-#about h1 {
-  font-size: 2em;
-  font-weight: normal;
-  text-align: center;
-}
-
-#about p {
-  margin-left: 200px;
-  margin-right: 200px;
-  color: grey;
-  font-size: 16px;
 }
