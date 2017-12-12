@@ -39,7 +39,7 @@ function fillProjects() {
     let project = json[i];
     projects.innerHTML += '<section class="card">'
       + '<a href="' + project.html_url + '"><h1>' + project.name + '</h1></a>'
-      + '<p>' + project.description + '</p></section>';
+      + '<p>' + project.description + '</p><p>Commits: ' + project.commits + '</p></section>';
   }
 }
 

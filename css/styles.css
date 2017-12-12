@@ -67,11 +67,17 @@ nav a:hover {
 
 .content h1 {
   color: whitesmoke;
-  padding-top: 200px;
+  padding-top: 50px;
   margin-bottom: 0;
   font-weight: 800;
   font-size: 3em;
   text-align: center;
+}
+
+@media (min-height: 500px) { /* Move header text up if smaller height */
+  .content h1 {
+    padding-top: 200px;
+  }
 }
 
 .content h2 {
