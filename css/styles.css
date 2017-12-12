@@ -112,11 +112,13 @@ nav a:hover {
   margin: 10px;
   padding-left: 60px;
   padding-right: 60px;
+  width: 60%;
   align-items: center;
 
   @media (min-width: 600px) {
     padding-left: 100px;
     padding-right: 100px;
+    width: 100%;
   }
 }
 
