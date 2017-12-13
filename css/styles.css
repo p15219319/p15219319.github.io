@@ -45,6 +45,51 @@ nav a:hover {
   color: rgb(225, 225, 225); /* Colour which link is being hovered */
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px; /* Rounded text boxes */
+  border: none;
+  margin-bottom: 10px;
+  background: rgb(0, 100, 155);
+  color: whitesmoke;
+}
+
+form input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+form textarea {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  height: 150px;
+  resize: none;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background: whitesmoke;
+  border-radius: 5px;
+  padding: 5px 5px;
+  border: none;
+  color: rgb(0, 100, 155);
+  font-weight: 600;
+}
+
+button:hover {
+  color: whitesmoke;
+  background: rgb(0, 100, 155);
+}
+
 @keyframes transition {
     0% { background: rgba(70, 130, 180, 0.7); }
     25% { background: rgba(70, 130, 180, 0.75); }
@@ -55,7 +100,7 @@ nav a:hover {
 
 .content { /* The first thing seen on the website - fills up the viewport */
   background: steelblue;
-  height: 100vh;
+  height: 99vh; /* 100 would partially cover the down arrow, so 99 works fine */
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
@@ -74,12 +119,6 @@ nav a:hover {
   text-align: center;
 }
 
-@media (min-height: 500px) { /* Move header text up if smaller height */
-  .content h1 {
-    padding-top: 200px;
-  }
-}
-
 .content h2 {
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   color: whitesmoke;
@@ -89,7 +128,7 @@ nav a:hover {
 .container {
   color: steelblue;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  margin-bottom: 60px;
+  margin-bottom: 21px;
   margin-left: 100px;
   margin-right: 100px;
   display: flex;
@@ -101,6 +140,7 @@ nav a:hover {
   font-size: 2em;
   font-weight: normal;
   text-align: center;
+  padding-top: 30px; /* This is necessary otherwise the navigation bar covers it */
 }
 
 .container p {
@@ -108,10 +148,21 @@ nav a:hover {
   font-size: 16px;
 }
 
+/* container is nested into this to produce a blue container */
+.container-parent {
+  background: steelblue;
+}
+
+/* Used with the container class to produce white text in the container */
+.blue {
+  color: whitesmoke;
+  text-align: center;
+}
+
 .card {
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
+  background: whitesmoke;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 1px;
   justify-content: center;
@@ -120,12 +171,6 @@ nav a:hover {
   padding-right: 60px;
   width: 60%;
   align-items: center;
-
-  @media (min-width: 600px) {
-    padding-left: 100px;
-    padding-right: 100px;
-    width: 100%;
-  }
 }
 
 .card h1 {
@@ -141,7 +186,7 @@ nav a:hover {
 
 .card p {
   text-align: left;
-  font-size: 16;
+  font-size: 16px;
   color: grey;
 }
 
@@ -180,4 +225,18 @@ nav a:hover {
   color: whitesmoke;
   text-decoration: none;
   font-size: 2em;
+}
+
+@media screen and (min-height: 700px) { /* Move header text up if smaller height */
+  .content h1 {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+  }
 }

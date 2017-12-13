@@ -1,63 +1,79 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My website</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat">
+</head>
 
-  <body>
+<body>
 
-    <header>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <main>
-      <section class="content">
-        <h1>AS-AD PATEL</h1>
-        <h2>Computer Science Student</h2>
+  <main>
 
-        <div id="social-media">
-          <ul>
-            <li><a href="https://github.com/p15219319/" target="_blank">
-              <img src="images/github-32.png" alt="GitHub" height="32" width="32">
-            </a></li>
-            <li><a href="https://twitter.com/as_ad97" target="_blank">
-              <img src="images/twitter-32.png" alt="Twitter" height="32" width="32">
-            </a></li>
-          </ul>
-        </div>
+    <!-- The main section with the title and social media links -->
+    <section class="content">
+      <h1>AS-AD PATEL</h1>
+      <h2>Computer Science Student</h2>
 
-        <div id="go-down">
-          <a href="#about">&darr;</a>
-        </div>
+      <div id="social-media">
+        <ul>
+          <li><a href="https://github.com/p15219319/" target="_blank">
+            <img src="images/github-32.png" alt="GitHub" height="32" width="32">
+          </a></li>
+          <li><a href="https://twitter.com/as_ad97" target="_blank">
+            <img src="images/twitter-32.png" alt="Twitter" height="32" width="32">
+          </a></li>
+        </ul>
+      </div>
+
+      <div id="go-down">
+        <a href="#about">&darr;</a>
+      </div>
+    </section>
+
+    <!-- The about section -->
+    <section id="about" class="container">
+      <h1>About</h1>
+      <p>
+        I am a final year Computer Science student and developer,
+        with experience in HTML, CSS, JavaScript, C and Java. This
+        is my portfolio, you will find any projects that I have worked
+        on and possible future projects. I am always interested in
+        opportunities to work on new projects
+      </p>
+    </section>
+
+    <!-- The projects section -->
+    <section id="projects" class="container">
+      <!-- Filled in through JavaScript - parsed from JSON -->
+    </section>
+
+    <!-- Section with contact information -->
+    <div class="container-parent">
+      <section id="contact" class="container blue">
+        <h1>Contact</h1>
+        <form>
+          <input type="email" name="_replyto" placeholder="Input your email" required>
+          <textarea name="message" placeholder="Input your message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
       </section>
+    </div>
+  </main>
 
-      <section id="about" class="container">
-        <h1>About</h1>
-        <p>
-          I am a final year Computer Science student and developer,
-          with experience in HTML, CSS, JavaScript, C and Java. This
-          is my portfolio, you will find any projects that I have worked
-          on and possible future projects. I am always interested in
-          opportunities to work on new projects
-        </p>
-      </section>
-
-      <section id="projects" class="container">
-        <!-- Filled in through JavaScript - parsed from JSON -->
-      </section>
-    </main>
-
-    <footer>
-      © 2017 As-ad Patel
-    </footer>
-    <script src="js/scripts.js"></script>
-  </body>
+  <footer>
+    © 2017 As-ad Patel
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
 </html>
