@@ -33,6 +33,7 @@ nav {
   display: flex;
   top: 0;
   width: 100%;
+  
 }
 
 nav a {
@@ -43,6 +44,7 @@ nav a {
 
 nav a:hover {
   color: rgb(225, 225, 225); /* Colour which link is being hovered */
+  transform: scale(1.05);
 }
 
 form {
@@ -213,6 +215,20 @@ button:hover {
 #social-media li, ul {
   display: inline-block;
   list-style: none;
+}
+
+@keyframes rotate {
+    0% { transform: scale(1.05) rotate(0deg); }
+    25% { transform: scale(1.05) rotate(90deg); }
+    50% { transform: scale(1.05) rotate(180deg); }
+    75% { transform: scale(1.05) rotate(270deg); }
+    100% { transform: scale(1.05) rotate(360deg); }
+}
+
+#social-media li:hover {
+  animation-name: rotate;
+  animation-duration: 0.2s;
+  animation-iteration-count: 2;
 }
 
 #go-down {
