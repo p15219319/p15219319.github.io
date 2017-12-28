@@ -13,8 +13,8 @@ onto the page.
 
 The website is built mobile-first, and as a single page application
 ## Wireframes
-[![Main-view](https://github.com/p15219319/p15219319.github.io/tree/master/wireframes/wireframe1.png)](https://github.com/p15219319/p15219319.github.io/tree/master/wireframes/wireframe1.png)
+![Main-view](https://github.com/p15219319/p15219319.github.io/tree/master/wireframes/wireframe1.png "Main-view")
 
 
 
-[![Content](https://github.com/p15219319/p15219319.github.io/tree/master/wireframes/wireframe2.png)](https://github.com/p15219319/p15219319.github.io/tree/master/wireframes/wireframe2.png)
+![Content](https://github.com/p15219319/p15219319.github.io/tree/master/wireframes/wireframe2.png "Content")
