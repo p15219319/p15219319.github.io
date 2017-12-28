@@ -22,3 +22,4 @@ The website is built mobile-first, and as a single page application
 
 ## References
 [W3Schools](https://www.w3schools.com/)
+[FontAwesome](http://fontawesome.io/)
