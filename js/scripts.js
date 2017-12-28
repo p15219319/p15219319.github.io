@@ -23,6 +23,14 @@ let repositories = `
     "description": "JavaFX Application which allows for inputting marks for a student. Parses courses and modules from a text file which can be easily edited",
     "language": "Java",
     "commits": "1"
+  },
+  {
+    "id": 113979714,
+    "name": "p15219319.github.io",
+    "html_url": "https://github.com/p15219319/p15219319.github.io",
+    "description": "Website for CTEC3905 assignment",
+    "language": "HTML",
+    "commits": "27"
   }
 ]`;
 let projects = document.getElementById('projects');
