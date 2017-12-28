@@ -127,6 +127,10 @@ button:hover {
   margin: 0;
 }
 
+.content a {
+  text-decoration: none;
+}
+
 .container {
   color: steelblue;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;

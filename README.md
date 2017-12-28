@@ -18,3 +18,7 @@ The website is built mobile-first, and as a single page application
 
 
 ![Content](https://github.com/p15219319/p15219319.github.io/tree/master/wireframes/wireframe2.png "Content")
+
+
+## References
+[W3Schools](https://www.w3schools.com/)
