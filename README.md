@@ -1,4 +1,4 @@
-# CTEC3905: Front-End Web development.
+# CTEC3905: Front-End Web development | As-ad Patel - P15219319
 
 ## Background
 This website is a portfolio created for myself. I used HTML to create and
@@ -39,6 +39,7 @@ JS   |    Console     | No errors
 I was able to get a friend to test the basic functionality of my website,
 here are the results that I got
 
+
 Feature     |  Outcome  | Notes
 ----------- | --------- | --------------------------------------------------------
 Navigation  |  Success  | All navigation works as intended. Site map also included
@@ -48,5 +49,9 @@ Animation   |  Success  | All animation works. Colour fade on load, social media
 
 ## References
 [W3Schools](https://www.w3schools.com/) - Tutorials on basics
+
+
 [FontAwesome](http://fontawesome.io/) - Used for HTML & CSS icons
+
+
 [CodePen](https://codepen.io/) - Inspiration
