@@ -21,11 +21,11 @@ projects name, description and number of commits. This was then loaded onto
 the page using JavaScript.
 
 ## Wireframes
-![Main-view](https://github.com/p15219319/p15219319.github.io/tree/master/wireframes/wireframe1.png "Main-view")
+![Main-view](wireframes/wireframe1.png)
 
 
 
-![Content](https://github.com/p15219319/p15219319.github.io/tree/master/wireframes/wireframe2.png "Content")
+![Content](wireframes/wireframe2.png)
 
 ## Validation
 Area |     Method     | Result
