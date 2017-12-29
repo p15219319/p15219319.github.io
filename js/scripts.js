@@ -30,7 +30,7 @@ let repositories = `
     "html_url": "https://github.com/p15219319/p15219319.github.io",
     "description": "Website for CTEC3905 assignment",
     "language": "HTML",
-    "commits": "27"
+    "commits": "33"
   }
 ]`;
 
