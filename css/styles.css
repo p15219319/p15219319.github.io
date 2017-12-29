@@ -91,6 +91,11 @@ button:hover {
   background: rgb(0, 100, 155);
 }
 
+#top {
+  width: 10%;
+  margin-left: 50px;
+}
+
 @keyframes transition {
     0% { background: rgba(70, 130, 180, 0.7); }
     25% { background: rgba(70, 130, 180, 0.75); }

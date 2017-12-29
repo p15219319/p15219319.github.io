@@ -33,8 +33,11 @@ let repositories = `
     "commits": "27"
   }
 ]`;
-let projects = document.getElementById('projects');
 
+let projects = document.getElementById('projects');
+let topBtn = document.getElementById('top');
+
+//This function fills in the projects section using parsed json data
 function fillProjects() {
   //add header
   projects.innerHTML += '<h1>Projects</h1>';
@@ -53,4 +56,30 @@ function fillProjects() {
   }
 }
 
+//This function scrolls to an element
+function smoothScroll(source, target, time) {
+  if (time > 0) {
+    let frames = (target - source.scrollTop) / time * 10;
+    setTimeout(function() {
+      source.scrollTop = source.scrollTop + frames;
+      if (source.scrollTop !== target) {
+        smoothScroll(source, target, time - 10);
+      }
+    }, 10);
+  }
+}
+
+//This function scrolls to the top
+function toTop() {
+  smoothScroll(document.documentElement, topBtn.offsetTop, 1000);
+}
+
+//This function registers listeners to buttons, such as the go to top button
+function addListeners() {
+  topBtn.addEventListener('click', toTop);
+}
+
+
+//Initialize everything (listeners etc)
+addListeners();
 fillProjects();
