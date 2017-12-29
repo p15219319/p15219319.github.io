@@ -21,11 +21,16 @@ projects name, description and number of commits. This was then loaded onto
 the page using JavaScript.
 
 ## Wireframes
+Draft
 ![Main-view](wireframes/wireframe1.png)
 
 
 
 ![Content](wireframes/wireframe2.png)
+
+
+Final
+![Final](wireframes/final.png)
 
 ## Validation
 Area |     Method     | Result
